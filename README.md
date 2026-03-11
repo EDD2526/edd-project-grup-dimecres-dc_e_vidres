@@ -1,7 +1,7 @@
 # Projecte XXXXXXXXXXXXX
 
->**Autors:** 
->**Versió: **
+>**Autors:** Àlex Requena , Alfred Abanto
+>**Versió:** v0-001 
 
 ----------
 
