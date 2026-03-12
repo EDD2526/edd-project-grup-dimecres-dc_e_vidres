@@ -2,9 +2,269 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 4006572a-320d-4ed7-bf52-f860e1c069c6)
+	(uuid "4006572a-320d-4ed7-bf52-f860e1c069c6")
 	(paper "A4")
 	(lib_symbols)
+	(text "Etapa de processament\n"
+		(exclude_from_sim no)
+		(at 244.094 19.304 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "1f6e579b-db30-4e58-9fed-592dc48761fd")
+	)
+	(text "Etapa de comuniació\n"
+		(exclude_from_sim no)
+		(at 60.198 68.326 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "62a5601f-5a64-4314-bf43-19a2f16103ca")
+	)
+	(text "Etapa de alimentació"
+		(exclude_from_sim no)
+		(at 61.468 19.812 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "d263c618-5eeb-4f79-aa84-d78010467e11")
+	)
+	(text "Etapa de sensors \n\n"
+		(exclude_from_sim no)
+		(at 148.844 72.39 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "ed6d6ce1-82ed-4d3b-966e-98936bc3a337")
+	)
+	(text "Etapa de potència "
+		(exclude_from_sim no)
+		(at 154.686 19.558 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "fa6fa926-c782-4142-94d4-78d32c51395e")
+	)
+	(sheet
+		(at 17.78 13.97)
+		(size 90.17 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0017ac97-ce51-421e-9b56-d15b4543e056")
+		(property "Sheetname" "Etapa_de_alimentacio"
+			(at 17.78 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Etapa_de_alimentacio.kicad_sch"
+			(at 17.78 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 13.97)
+		(size 90.17 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b0d2692-6fb2-4ddb-9a32-8981b2e43675")
+		(property "Sheetname" "etapa_de_potencia"
+			(at 111.76 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "etapa_de_potencia.kicad_sch"
+			(at 111.76 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 62.23)
+		(size 90.17 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4826ec12-9281-4684-8c79-c090e7861812")
+		(property "Sheetname" "Etapa_de_comunicacio"
+			(at 17.78 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Etapa_de_comunicacio.kicad_sch"
+			(at 17.78 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 13.97)
+		(size 76.2 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "915ad2af-c6be-4d34-8bde-04620bcb3e26")
+		(property "Sheetname" "Etapa_de_processament"
+			(at 205.74 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Etapa_de_processament.kicad_sch"
+			(at 205.74 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 62.23)
+		(size 90.17 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc5c35d1-a190-4288-8832-f5988bcb1d7b")
+		(property "Sheetname" "Etapa_de_sensors"
+			(at 111.76 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Etapa_de_sensors.kicad_sch"
+			(at 111.76 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
