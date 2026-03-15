@@ -1553,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 64.77) (xy 189.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573c2ea6-7df7-4733-8332-72a3c02a1799")
+	)
+	(wire
+		(pts
 			(xy 182.88 74.93) (xy 205.74 74.93)
 		)
 		(stroke
@@ -1560,6 +1570,16 @@
 			(type default)
 		)
 		(uuid "5d8993d2-93f2-4c76-997f-679a551d5b06")
+	)
+	(wire
+		(pts
+			(xy 182.88 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66834bee-230f-40b7-9daa-05c5a4b4a50b")
 	)
 	(wire
 		(pts
@@ -1891,6 +1911,28 @@
 			)
 		)
 	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 189.23 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3505b9de-9997-41e2-be0a-f641ef5ca7cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.0166 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vcc"
 		(shape input)
 		(at 198.12 90.17 0)
@@ -1957,7 +1999,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "CAN_RX"
 		(shape input)
 		(at 187.96 62.23 0)
 		(fields_autoplaced yes)
@@ -1969,7 +2011,7 @@
 		)
 		(uuid "81ac8683-1b1a-4d2b-a465-902a5504bd64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4247 62.23 0)
+			(at 198.0814 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,8 +2021,8 @@
 			)
 		)
 	)
-	(global_label "TX"
-		(shape input)
+	(global_label "CAN_TX"
+		(shape output)
 		(at 187.96 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1991,7 +2033,7 @@
 		)
 		(uuid "ddf6c81d-d59a-41e4-ad54-47ad663a48bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.1223 59.69 0)
+			(at 197.779 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,6 +2078,28 @@
 		(uuid "eb756668-4335-48f3-85bb-1eb16937b4e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 53.439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 185.42 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe9a21cc-791e-4817-9bb6-012de84e0643")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.509 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
