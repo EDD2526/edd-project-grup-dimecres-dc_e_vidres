@@ -1226,46 +1226,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A RBxx\n"
-		(exclude_from_sim no)
-		(at 79.248 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "27c82c54-1753-486c-bafb-9a1cb7cac8aa")
-	)
-	(text "A RBxx\n"
-		(exclude_from_sim no)
-		(at 78.486 56.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5ec355bd-4b02-4497-8b90-30c1a5401862")
-	)
-	(text "A RBxx\n"
-		(exclude_from_sim no)
-		(at 77.978 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81c40fd5-dcd2-40b2-973f-a969305b29af")
-	)
-	(text "A RBxx\nA RBxx\n"
-		(exclude_from_sim no)
-		(at 209.042 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f8961857-dede-41be-b9b4-261a12cce05f")
-	)
 	(junction
 		(at 138.43 78.74)
 		(diameter 0)

@@ -1898,16 +1898,6 @@
 		)
 		(uuid "01c0f3a0-a4ae-442b-9012-a9d18cdb4fc3")
 	)
-	(text "A RPXX\n"
-		(exclude_from_sim no)
-		(at 94.234 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0d2fd9e8-968a-4a91-8382-28dc5eed057a")
-	)
 	(text "A L'ANTENA\n"
 		(exclude_from_sim no)
 		(at 126.492 148.844 90)
@@ -1917,46 +1907,6 @@
 			)
 		)
 		(uuid "7737a13c-36df-40ae-aa3a-f89692803bf3")
-	)
-	(text "A RPXX\n"
-		(exclude_from_sim no)
-		(at 94.742 145.796 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d89b7e8-ba84-4576-8053-46f3e57f5e61")
-	)
-	(text "A INT0\n"
-		(exclude_from_sim no)
-		(at 90.678 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89e86331-dfcb-4a1c-89e2-59e1a0ebba49")
-	)
-	(text "A RPXX\n"
-		(exclude_from_sim no)
-		(at 22.352 133.604 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ccc76cd-3d71-4cc3-845e-5b896f263576")
-	)
-	(text "A RBXX\n"
-		(exclude_from_sim no)
-		(at 28.702 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a9c85925-05e6-4a91-bb2d-b6ef3652ac57")
 	)
 	(text "A RBXX\n"
 		(exclude_from_sim no)
