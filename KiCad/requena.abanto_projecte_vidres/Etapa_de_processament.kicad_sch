@@ -1317,6 +1317,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MUX o PIC 44 pins\n"
+		(exclude_from_sim no)
+		(at 95.758 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9cbaefc6-4bbe-4455-ae8d-7341e1661089")
+	)
 	(junction
 		(at 212.09 76.2)
 		(diameter 0)

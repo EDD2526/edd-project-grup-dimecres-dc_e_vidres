@@ -1898,7 +1898,7 @@
 		)
 		(uuid "01c0f3a0-a4ae-442b-9012-a9d18cdb4fc3")
 	)
-	(text "A L'ANTENA\n"
+	(text "A L'ANTENA =>>>Chip antena\n"
 		(exclude_from_sim no)
 		(at 126.492 148.844 90)
 		(effects
