@@ -1888,16 +1888,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A RBXX\n"
-		(exclude_from_sim no)
-		(at 264.414 47.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "01c0f3a0-a4ae-442b-9012-a9d18cdb4fc3")
-	)
 	(text "A L'ANTENA =>>>Chip antena\n"
 		(exclude_from_sim no)
 		(at 126.492 148.844 90)
@@ -1908,16 +1898,6 @@
 		)
 		(uuid "7737a13c-36df-40ae-aa3a-f89692803bf3")
 	)
-	(text "A RBXX\n"
-		(exclude_from_sim no)
-		(at 266.954 52.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f8123097-5c57-4f93-b95c-424f23e9b7ca")
-	)
 	(junction
 		(at 93.98 179.07)
 		(diameter 0)
@@ -1925,7 +1905,7 @@
 		(uuid "1fc0d6ab-af41-46bd-8393-abc497f01905")
 	)
 	(junction
-		(at 157.48 113.03)
+		(at 171.45 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4142e082-ae05-44dd-ab67-59fc88b09332")
@@ -1949,7 +1929,7 @@
 		(uuid "5d0bff8f-1f19-4feb-a99c-7f9defa0e3d3")
 	)
 	(junction
-		(at 193.04 113.03)
+		(at 207.01 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d819627-e565-47c5-a257-24be4804113f")
@@ -1967,7 +1947,7 @@
 		(uuid "7f8c66d4-cdca-4238-8637-c98c37dba3e3")
 	)
 	(junction
-		(at 134.62 55.88)
+		(at 191.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85788670-ff7d-4d22-a68d-89bb75c32145")
@@ -2015,13 +1995,13 @@
 		(uuid "c7f58ddd-df0b-4362-99de-503197563bf2")
 	)
 	(junction
-		(at 156.21 53.34)
+		(at 213.36 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c912262e-f06d-4845-9626-da469efa7fd4")
 	)
 	(junction
-		(at 218.44 113.03)
+		(at 232.41 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2cff01d-b3a7-4fe1-a270-78fec7a0d590")
@@ -2074,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 157.48 118.11)
+			(xy 171.45 76.2) (xy 171.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 113.03) (xy 157.48 113.03)
+			(xy 207.01 76.2) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 113.03) (xy 218.44 113.03)
+			(xy 207.01 76.2) (xy 232.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 156.21 53.34)
+			(xy 208.28 31.75) (xy 213.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 52.07) (xy 248.92 52.07)
+			(xy 259.08 33.02) (xy 262.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 113.03)
+			(xy 232.41 67.31) (xy 232.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 134.62 68.58)
+			(xy 191.77 34.29) (xy 191.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2324,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 135.89 55.88)
+			(xy 191.77 34.29) (xy 193.04 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 157.48 104.14)
+			(xy 181.61 67.31) (xy 171.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 134.62 55.88)
+			(xy 189.23 34.29) (xy 191.77 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 248.92 46.99)
+			(xy 259.08 27.94) (xy 262.89 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 50.8) (xy 135.89 50.8)
+			(xy 167.64 29.21) (xy 193.04 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 55.88) (xy 124.46 55.88)
+			(xy 170.18 34.29) (xy 181.61 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 156.21 68.58)
+			(xy 201.93 46.99) (xy 213.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 157.48 113.03)
+			(xy 171.45 67.31) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 104.14) (xy 240.03 113.03)
+			(xy 254 67.31) (xy 254 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 113.03 55.88)
+			(xy 170.18 35.56) (xy 170.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 41.91) (xy 140.97 45.72)
+			(xy 198.12 20.32) (xy 198.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 53.34) (xy 156.21 68.58)
+			(xy 213.36 31.75) (xy 213.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 49.53) (xy 234.95 49.53)
+			(xy 245.11 30.48) (xy 248.92 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 53.34) (xy 165.1 53.34)
+			(xy 213.36 31.75) (xy 222.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 134.62 68.58)
+			(xy 194.31 46.99) (xy 191.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 113.03) (xy 240.03 113.03)
+			(xy 232.41 76.2) (xy 254 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2884,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 104.14) (xy 193.04 113.03)
+			(xy 207.01 67.31) (xy 207.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2934,7 +2914,7 @@
 	)
 	(global_label "UP_W"
 		(shape input)
-		(at 177.8 104.14 0)
+		(at 191.77 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2944,7 +2924,7 @@
 		)
 		(uuid "049f53db-25ab-4bf5-9762-2923616749ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8047 104.14 0)
+			(at 199.7747 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2936,7 @@
 	)
 	(global_label "DOWN_W"
 		(shape input)
-		(at 203.2 104.14 0)
+		(at 217.17 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2966,7 +2946,7 @@
 		)
 		(uuid "11d93ac7-27ee-4f02-adc8-3eea38d8b9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9866 104.14 0)
+			(at 227.9566 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3046,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 228.6 49.53 180)
+		(at 245.11 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3076,7 +3056,7 @@
 		)
 		(uuid "3a0566ef-f392-4254-9076-4659378def5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.9862 49.53 0)
+			(at 238.4962 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3090,7 @@
 	)
 	(global_label "OPEN_D"
 		(shape input)
-		(at 228.6 104.14 0)
+		(at 242.57 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3120,7 +3100,7 @@
 		)
 		(uuid "6b807adb-e8bd-4cb0-b195-a1e821abde6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.9028 104.14 0)
+			(at 252.8728 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3134,7 @@
 	)
 	(global_label "CLOSE_D"
 		(shape input)
-		(at 250.19 104.14 0)
+		(at 264.16 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3164,7 +3144,7 @@
 		)
 		(uuid "70af6ddf-3475-4d1a-bcc9-8c72bd208572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.3999 104.14 0)
+			(at 275.3699 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3178,7 @@
 	)
 	(global_label "V_SHUNT"
 		(shape input)
-		(at 110.49 50.8 180)
+		(at 167.64 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3208,7 +3188,7 @@
 		)
 		(uuid "7e4bf1b6-d313-48cc-9b07-dab75a38ed9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.28 50.8 0)
+			(at 156.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3200,7 @@
 	)
 	(global_label "OPEN_FC"
 		(shape input)
-		(at 248.92 46.99 0)
+		(at 262.89 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3230,7 +3210,7 @@
 		)
 		(uuid "8c9444f1-40e8-495c-b0d7-0b30bdff5b86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.3114 46.99 0)
+			(at 274.2814 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3288,7 @@
 	)
 	(global_label "AN0"
 		(shape input)
-		(at 165.1 53.34 0)
+		(at 222.25 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3318,7 +3298,7 @@
 		)
 		(uuid "c1fb06ed-2e65-43ff-a5fe-58da19669dfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.7138 53.34 0)
+			(at 228.8638 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3310,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 140.97 41.91 90)
+		(at 198.12 20.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3340,7 +3320,7 @@
 		)
 		(uuid "dbf7a7b7-4cfe-4137-a583-4a7f76be4af1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 35.2962 90)
+			(at 198.12 13.7062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3332,7 @@
 	)
 	(global_label "CLOSED_FC"
 		(shape input)
-		(at 248.92 52.07 0)
+		(at 262.89 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3362,7 +3342,7 @@
 		)
 		(uuid "f4ffb967-711a-49f0-a5de-d33f64deeaf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.4885 52.07 0)
+			(at 276.4585 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3422,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 245.11 104.14 0)
+		(at 259.08 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3451,7 +3431,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ae05fbf-c44e-4281-8a6e-fc9f7aa8ca36")
 		(property "Reference" "SW5"
-			(at 245.11 96.52 0)
+			(at 259.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3439,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 245.11 99.06 0)
+			(at 259.08 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 99.06 0)
+			(at 259.08 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3456,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 245.11 99.06 0)
+			(at 259.08 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3465,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 245.11 104.14 0)
+			(at 259.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3490,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6001-OT")
-		(at 143.51 53.34 0)
+		(at 200.66 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3519,7 +3499,7 @@
 		(fields_autoplaced yes)
 		(uuid "27f786d3-800b-4034-b7ac-00b22c5ab3ae")
 		(property "Reference" "U2"
-			(at 156.21 46.9198 0)
+			(at 213.36 25.3298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3507,7 @@
 			)
 		)
 		(property "Value" "MCP6001-OT"
-			(at 156.21 49.4598 0)
+			(at 213.36 27.8698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 140.97 58.42 0)
+			(at 198.12 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3525,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
-			(at 143.51 48.26 0)
+			(at 200.66 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3534,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
-			(at 143.51 53.34 0)
+			(at 200.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3839,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 57.15 0)
+		(at 170.18 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3868,7 +3848,7 @@
 		(fields_autoplaced yes)
 		(uuid "55bb6867-8ec9-4160-a673-326d1aae25fe")
 		(property "Reference" "#PWR06"
-			(at 113.03 63.5 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 62.23 0)
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 57.15 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 57.15 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 57.15 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3905,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 118.11 0)
+		(at 171.45 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3934,7 +3914,7 @@
 		(fields_autoplaced yes)
 		(uuid "5daddb6b-9975-4a4a-b619-3354b5d17225")
 		(property "Reference" "#PWR08"
-			(at 157.48 124.46 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 123.19 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 118.11 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 118.11 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 118.11 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4039,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
-		(at 240.03 49.53 0)
+		(at 254 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4068,7 +4048,7 @@
 		(fields_autoplaced yes)
 		(uuid "847fdfdc-9dea-4542-9ffa-2fd601a97b50")
 		(property "Reference" "SW2"
-			(at 240.03 40.64 0)
+			(at 254 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4056,7 @@
 			)
 		)
 		(property "Value" "SW_Push_SPDT"
-			(at 240.03 43.18 0)
+			(at 254 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 49.53 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 49.53 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4082,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch, single pole double throw"
-			(at 240.03 49.53 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4244,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 55.88 90)
+		(at 185.42 34.29 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4273,7 +4253,7 @@
 		(dnp no)
 		(uuid "a3b23b78-b91d-4d4a-a1ad-ab531ae884c3")
 		(property "Reference" "R1"
-			(at 128.27 62.23 90)
+			(at 185.42 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4261,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 128.27 59.69 90)
+			(at 185.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 54.102 90)
+			(at 185.42 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 55.88 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4287,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 55.88 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4312,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 223.52 104.14 0)
+		(at 237.49 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4341,7 +4321,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab37b074-0756-4b70-bc1a-6897f16f5e2a")
 		(property "Reference" "SW4"
-			(at 223.52 96.52 0)
+			(at 237.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4329,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 223.52 99.06 0)
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 99.06 0)
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 223.52 99.06 0)
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4355,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 223.52 104.14 0)
+			(at 237.49 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4514,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 172.72 104.14 0)
+		(at 186.69 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4543,7 +4523,7 @@
 		(fields_autoplaced yes)
 		(uuid "c54a8237-e91d-4349-8045-cc41f501cfa7")
 		(property "Reference" "SW1"
-			(at 172.72 96.52 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4531,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 172.72 99.06 0)
+			(at 186.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 99.06 0)
+			(at 186.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4548,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 172.72 99.06 0)
+			(at 186.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4557,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 172.72 104.14 0)
+			(at 186.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 198.12 104.14 0)
+		(at 212.09 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4844,7 +4824,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5f9430-2094-48a0-80f5-fe592a2f154d")
 		(property "Reference" "SW3"
-			(at 198.12 96.52 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4832,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 198.12 99.06 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 99.06 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4849,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 198.12 99.06 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4858,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 198.12 104.14 0)
+			(at 212.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4949,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 60.96 0)
+		(at 198.12 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4978,7 +4958,7 @@
 		(fields_autoplaced yes)
 		(uuid "efcd8561-6572-454c-9036-52b2e0312d22")
 		(property "Reference" "#PWR07"
-			(at 140.97 67.31 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4967,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 66.04 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 60.96 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 60.96 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 60.96 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 68.58 90)
+		(at 198.12 46.99 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5044,7 +5024,7 @@
 		(dnp no)
 		(uuid "f23f4ebe-dd10-4319-a578-c33db4cef318")
 		(property "Reference" "R2"
-			(at 140.97 74.93 90)
+			(at 198.12 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +5032,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 140.97 72.39 90)
+			(at 198.12 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 66.802 90)
+			(at 198.12 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 68.58 0)
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5058,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 68.58 0)
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
