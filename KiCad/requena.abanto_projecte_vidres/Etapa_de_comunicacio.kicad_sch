@@ -1245,7 +1245,7 @@
 	)
 	(text "TTL-232R"
 		(exclude_from_sim no)
-		(at 43.434 76.962 0)
+		(at 43.18 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
