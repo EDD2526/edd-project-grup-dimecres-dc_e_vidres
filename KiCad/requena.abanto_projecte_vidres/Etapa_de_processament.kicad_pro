@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "requena.abanto_projecte_vidres.kicad_pro",
+    "filename": "Etapa_de_processament.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,19 +609,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "4006572a-320d-4ed7-bf52-f860e1c069c6",
-      "Root"
-    ],
-    [
-      "0b0d2692-6fb2-4ddb-9a32-8981b2e43675",
-      "etapa_de_potencia"
-    ],
-    [
-      "915ad2af-c6be-4d34-8bde-04620bcb3e26",
-      "Etapa_de_processament"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
