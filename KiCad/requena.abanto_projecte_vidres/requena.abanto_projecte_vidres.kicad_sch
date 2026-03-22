@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "Etapa de processament\n"
 		(exclude_from_sim no)
-		(at 244.094 19.304 0)
+		(at 165.354 54.864 0)
 		(effects
 			(font
 				(size 4 4)
@@ -15,29 +15,9 @@
 		)
 		(uuid "1f6e579b-db30-4e58-9fed-592dc48761fd")
 	)
-	(text "Etapa de comuniació\n"
-		(exclude_from_sim no)
-		(at 60.198 68.326 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "62a5601f-5a64-4314-bf43-19a2f16103ca")
-	)
-	(text "Etapa de sensors \n\n"
-		(exclude_from_sim no)
-		(at 148.844 72.39 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "ed6d6ce1-82ed-4d3b-966e-98936bc3a337")
-	)
 	(text "Etapa de potència "
 		(exclude_from_sim no)
-		(at 154.686 19.558 0)
+		(at 75.946 55.118 0)
 		(effects
 			(font
 				(size 5 5)
@@ -46,7 +26,7 @@
 		(uuid "fa6fa926-c782-4142-94d4-78d32c51395e")
 	)
 	(sheet
-		(at 111.76 13.97)
+		(at 33.02 49.53)
 		(size 90.17 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62,7 +42,7 @@
 		)
 		(uuid "0b0d2692-6fb2-4ddb-9a32-8981b2e43675")
 		(property "Sheetname" "etapa_de_potencia"
-			(at 111.76 13.2584 0)
+			(at 33.02 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "etapa_de_potencia.kicad_sch"
-			(at 111.76 56.4646 0)
+			(at 33.02 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,49 +68,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 62.23)
-		(size 90.17 41.91)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4826ec12-9281-4684-8c79-c090e7861812")
-		(property "Sheetname" "Etapa_de_comunicacio"
-			(at 17.78 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Etapa_de_comunicacio.kicad_sch"
-			(at 17.78 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 205.74 13.97)
+		(at 127 49.53)
 		(size 76.2 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146,7 +84,7 @@
 		)
 		(uuid "915ad2af-c6be-4d34-8bde-04620bcb3e26")
 		(property "Sheetname" "Etapa_de_processament"
-			(at 205.74 13.2584 0)
+			(at 127 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "Etapa_de_processament.kicad_sch"
-			(at 205.74 56.4646 0)
+			(at 127 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,48 +105,6 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 111.76 62.23)
-		(size 90.17 40.64)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dc5c35d1-a190-4288-8832-f5988bcb1d7b")
-		(property "Sheetname" "Etapa_de_sensors"
-			(at 111.76 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Etapa_de_sensors.kicad_sch"
-			(at 111.76 103.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6"
-					(page "6")
 				)
 			)
 		)

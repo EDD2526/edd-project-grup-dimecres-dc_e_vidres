@@ -7875,7 +7875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02358c55-89d5-447f-9d57-7fb607219374")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 209.1533 125.73 0)
 			(effects
 				(font
@@ -7949,6 +7949,12 @@
 			(uuid "440efe5c-b933-40f6-8ced-6ad8758a5ab7")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "U3")
@@ -7967,7 +7973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "043ce157-d287-4f18-946c-8e8c9c7f3ecc")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at -102.87 60.96 0)
 			(effects
 				(font
@@ -8015,6 +8021,12 @@
 			(uuid "b6655f92-0125-41d7-8278-cd21e26a5089")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR011")
@@ -8033,7 +8045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16035e3d-cd7e-4666-933f-7f1f86f10f21")
-		(property "Reference" "Y1"
+		(property "Reference" "Y?"
 			(at -68.58 41.91 0)
 			(effects
 				(font
@@ -8083,6 +8095,12 @@
 			(uuid "6a0b6188-fdf2-4b46-b9bc-b217215b8d82")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "Y1")
@@ -8101,7 +8119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae05fbf-c44e-4281-8a6e-fc9f7aa8ca36")
-		(property "Reference" "SW5"
+		(property "Reference" "SW?"
 			(at -19.05 113.03 0)
 			(effects
 				(font
@@ -8151,6 +8169,12 @@
 			(uuid "6bc7493c-b11c-4436-8983-92dad4b65dca")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW5")
@@ -8169,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b13f516-e285-4a27-8243-2303ff52c141")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 264.16 33.0199 0)
 			(effects
 				(font
@@ -8245,7 +8269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2028c753-6d61-4814-9ac7-481c0f268540")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -8293,6 +8317,12 @@
 			(uuid "b5a0e054-82ba-4f94-9ae6-bfaba09b3139")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR02")
@@ -8312,7 +8342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20fd3d98-e604-495a-88fc-4514ab0c6050")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 48.8381 153.67 0)
 			(effects
 				(font
@@ -8431,7 +8461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b195872-ae79-4b4b-b3f7-82cdbfcaad2f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 190.5 55.88 0)
 			(effects
 				(font
@@ -8479,6 +8509,12 @@
 			(uuid "4439e54c-b331-49ef-8f3e-7a05f36817f8")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR03")
@@ -8497,7 +8533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e90a780-f58a-47d9-bb1d-a2ec49a42d2d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at -146.05 27.94 0)
 			(effects
 				(font
@@ -8545,6 +8581,12 @@
 			(uuid "1978c332-6974-46a6-9b74-b5d6d26fe43b")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR06")
@@ -8563,7 +8605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33e37972-390a-440f-a895-572839e21421")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 45.72 195.58 0)
 			(effects
 				(font
@@ -8635,7 +8677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3670f91d-e89a-4d4c-9ea6-b671c8f753eb")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 229.87 165.1 0)
 			(effects
 				(font
@@ -8683,6 +8725,12 @@
 			(uuid "938c9dfd-33e7-49b8-85d2-d03ec872e99c")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR04")
@@ -8700,7 +8748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3834bf31-8cf1-491c-8bea-b00e8b59728d")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 279.4 77.4699 0)
 			(effects
 				(font
@@ -8775,7 +8823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d55697f-cadd-495a-a6d8-e49bfc962fed")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 181.61 91.694 90)
 			(effects
 				(font
@@ -8849,7 +8897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53909702-ec5c-425f-a32d-2883fa7b31a7")
-		(property "Reference" "SW6"
+		(property "Reference" "SW?"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -8899,6 +8947,12 @@
 			(uuid "4f8bb85c-8dfd-41a0-8728-c629570a550f")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW6")
@@ -8917,7 +8971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b963b0-7a40-42d2-ae46-780b32e9dc9b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at -68.58 66.04 0)
 			(effects
 				(font
@@ -8965,6 +9019,12 @@
 			(uuid "aade0fa3-466c-4e30-b8aa-23abc896b188")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR013")
@@ -8983,7 +9043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6048ddd9-51d3-4f6e-9ea5-e281e1316813")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at -106.68 140.97 0)
 			(effects
 				(font
@@ -9031,6 +9091,12 @@
 			(uuid "2f87c3c1-06d7-4cab-8fa9-14e988b44ca0")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR014")
@@ -9049,7 +9115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b993240-4fc9-436c-8710-4b373d8efd51")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at -116.8337 -33.02 90)
 			(effects
 				(font
@@ -9099,6 +9165,12 @@
 			(uuid "3dab57d9-69d5-4cc2-8c5d-fe2ccf96cd18")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C6")
@@ -9116,7 +9188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b99e094-8403-47da-b15f-83606645fa37")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 134.6201 46.99 0)
 			(effects
 				(font
@@ -9192,7 +9264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd6e8c2-77c4-46cf-ad29-f0bcec7d7c73")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 275.59 33.0199 0)
 			(effects
 				(font
@@ -9267,7 +9339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "771be222-86b8-4741-99d4-fc856be1527f")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 233.68 140.9699 0)
 			(effects
 				(font
@@ -9319,6 +9391,12 @@
 			(uuid "548a2808-9c1c-4436-a079-16893ec5d346")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "R4")
@@ -9337,7 +9415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8b663d-cf7b-42c2-99d8-cf453359bf11")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 265.43 42.2274 90)
 			(effects
 				(font
@@ -9422,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "847fdfdc-9dea-4542-9ffa-2fd601a97b50")
-		(property "Reference" "SW2"
+		(property "Reference" "SW?"
 			(at 52.07 -120.65 0)
 			(effects
 				(font
@@ -9475,6 +9553,12 @@
 			(uuid "43550b76-1ba4-44b4-a83b-3f26ed95def1")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW2")
@@ -9493,7 +9577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89ae2a35-e1c7-4d83-a5fd-5b2d4f7fd00c")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at -116.8337 -22.86 90)
 			(effects
 				(font
@@ -9543,6 +9627,12 @@
 			(uuid "eae9387a-8bb9-4dcb-9bb0-f1fd92f4add5")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C8")
@@ -9561,7 +9651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8efacb62-91fd-4d30-b5e9-d5ffb2707736")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at -85.09 -15.24 90)
 			(effects
 				(font
@@ -9611,6 +9701,12 @@
 			(uuid "21b943ef-79d1-494c-9f16-0d7706ba4354")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C10")
@@ -9629,7 +9725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "906fd683-d8e0-416a-867c-591f4d2edb99")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at -124.46 1.27 0)
 			(effects
 				(font
@@ -9677,6 +9773,12 @@
 			(uuid "db9011b9-4fc3-4bd2-8780-ad82b3ae601b")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR07")
@@ -9695,7 +9797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e755006-a72f-4bc7-8597-c8d52ff61406")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 208.28 58.4199 0)
 			(effects
 				(font
@@ -9768,6 +9870,12 @@
 			(uuid "0caa17fe-1d7c-43e9-8cf4-226315f34f19")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "J1")
@@ -9786,7 +9894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1e7ba60-fd0c-4916-a84e-e22e977df33f")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at -116.8337 -53.34 90)
 			(effects
 				(font
@@ -9836,6 +9944,12 @@
 			(uuid "ad91d12f-b04e-4fef-93c8-c47c06ace2d9")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C8")
@@ -9854,7 +9968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab37b074-0756-4b70-bc1a-6897f16f5e2a")
-		(property "Reference" "SW4"
+		(property "Reference" "SW?"
 			(at -48.26 113.03 0)
 			(effects
 				(font
@@ -9904,6 +10018,12 @@
 			(uuid "af80971c-c1f8-4ae8-9a6d-9fb7d908e482")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW4")
@@ -9922,7 +10042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ea016e-90ca-434f-b4cc-797360d2049a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 267.97 99.06 0)
 			(effects
 				(font
@@ -9994,7 +10114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b393f509-f578-4da0-b333-2380fafaeb52")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 145.288 42.926 0)
 			(effects
 				(font
@@ -10149,7 +10269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9b66a5c-a401-4bc0-948e-830a47489ec1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 139.7 123.19 0)
 			(effects
 				(font
@@ -10221,7 +10341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb40cde-8321-4ab0-bba0-cf52c192c2f2")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 267.97 142.2399 0)
 			(effects
 				(font
@@ -10294,6 +10414,12 @@
 			(uuid "4d612e8d-a5b2-4de4-8021-407669e2f66d")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "J2")
@@ -10312,7 +10438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54a8237-e91d-4349-8045-cc41f501cfa7")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at -99.06 113.03 0)
 			(effects
 				(font
@@ -10362,6 +10488,12 @@
 			(uuid "77195a4b-e4f0-4d65-a9b6-9057b08dbe2f")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW1")
@@ -10380,7 +10512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c899a3e0-955a-4583-a5f2-d41948286dc9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 273.05 55.88 0)
 			(effects
 				(font
@@ -10452,7 +10584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ac5393-013b-4cef-b494-8438986978a2")
-		(property "Reference" "U4"
+		(property "Reference" "U?"
 			(at -95.6467 49.53 0)
 			(effects
 				(font
@@ -10597,6 +10729,12 @@
 			(uuid "9d1067c4-6098-47a9-9d52-bb45c8d0032c")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "U4")
@@ -10614,7 +10752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca6000ba-a74b-435f-b646-31e885f737fd")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 258.318 76.454 0)
 			(effects
 				(font
@@ -10690,7 +10828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c9cd6c-43a4-4d8d-8d42-83373b9b0ede")
-		(property "Reference" "C12"
+		(property "Reference" "C?"
 			(at -57.15 52.0699 0)
 			(effects
 				(font
@@ -10742,6 +10880,12 @@
 			(uuid "77b81797-4b00-4a50-8c0d-9deea5431d26")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C12")
@@ -10759,7 +10903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8950032-ea11-4396-9f79-7c76aaf4b77f")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 165.608 76.2 90)
 			(effects
 				(font
@@ -10832,7 +10976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da46f9c2-ac41-4327-8227-bd8badc0a07a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at -77.47 3.81 0)
 			(effects
 				(font
@@ -10880,6 +11024,12 @@
 			(uuid "62168d6a-77af-45c9-8cfb-bf1dbc3f2adc")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR012")
@@ -10898,7 +11048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daced12c-fe37-4814-9141-721d5b34bdd2")
-		(property "Reference" "J3"
+		(property "Reference" "J?"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -10957,6 +11107,12 @@
 			(uuid "24d8f344-e6dc-4bad-95a6-2c0cef50daba")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "J3")
@@ -10975,7 +11131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8d9ce9-7d06-4904-bb94-e2779336e127")
-		(property "Reference" "Y2"
+		(property "Reference" "Y?"
 			(at 269.24 67.31 0)
 			(effects
 				(font
@@ -11049,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd5f9430-2094-48a0-80f5-fe592a2f154d")
-		(property "Reference" "SW3"
+		(property "Reference" "SW?"
 			(at -73.66 113.03 0)
 			(effects
 				(font
@@ -11099,6 +11255,12 @@
 			(uuid "c0ed583b-b44b-483f-a223-9326fca69ef3")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW3")
@@ -11117,7 +11279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9b899f-9c71-444a-a4b0-70768e5f90d7")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 91.44 43.1799 0)
 			(effects
 				(font
@@ -11169,6 +11331,12 @@
 			(uuid "c2e7434a-6f23-4648-9609-d7c3336a282f")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "R2")
@@ -11187,7 +11355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e8288b-ffcd-47b7-8697-8e3e3c2f04f0")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 276.86 42.2274 90)
 			(effects
 				(font
@@ -11272,7 +11440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e417ca04-2183-475e-ae29-5acdcea32f01")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at -116.8337 -13.97 90)
 			(effects
 				(font
@@ -11322,6 +11490,12 @@
 			(uuid "64da2f40-e1ab-44a0-a4e5-b6c367758f8d")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C9")
@@ -11340,7 +11514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4237b91-51ed-4c94-9af9-dd79f822bd6e")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at -72.39 52.0699 0)
 			(effects
 				(font
@@ -11392,6 +11566,12 @@
 			(uuid "f78b3a37-bb32-48df-b1d8-ac4eeb557161")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C11")
@@ -11410,7 +11590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea052b2c-ca91-447b-83b0-720f0ee52573")
-		(property "Reference" "JP1"
+		(property "Reference" "JP?"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -11463,6 +11643,12 @@
 			(uuid "793adc33-81e0-4d4c-b11d-793189fbc9c5")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "JP1")
@@ -11481,7 +11667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f065a654-e094-42ca-9515-0fe10592023a")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at -116.8337 -43.18 90)
 			(effects
 				(font
@@ -11531,6 +11717,12 @@
 			(uuid "c462c8d3-73f0-4cd4-a5c5-64ac9a3e9455")
 		)
 		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "C6")
@@ -11549,7 +11741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b2b312-50b3-47ba-8e1b-17a462e916d3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 261.62 55.88 0)
 			(effects
 				(font

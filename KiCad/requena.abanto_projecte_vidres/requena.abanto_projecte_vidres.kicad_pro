@@ -420,14 +420,6 @@
     [
       "915ad2af-c6be-4d34-8bde-04620bcb3e26",
       "Etapa_de_processament"
-    ],
-    [
-      "4826ec12-9281-4684-8c79-c090e7861812",
-      "Etapa_de_comunicacio"
-    ],
-    [
-      "dc5c35d1-a190-4288-8832-f5988bcb1d7b",
-      "Etapa_de_sensors"
     ]
   ],
   "text_variables": {}
