@@ -4745,7 +4745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "282837-2:TE_282837-2"
+		(property "Footprint" "motor_connector:TE_282837-2"
 			(at 148.59 53.34 0)
 			(effects
 				(font
@@ -5335,7 +5335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "282837-2:TE_282837-2"
+		(property "Footprint" "motor_connector:TE_282837-2"
 			(at 148.59 60.96 0)
 			(effects
 				(font
