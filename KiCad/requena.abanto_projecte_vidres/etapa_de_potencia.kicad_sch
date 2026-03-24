@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "022df46b-4a1f-423b-84a0-dca974b893e8")
 	(paper "A4")
+	(title_block
+		(title "ETAPA DE POTÈNCIA")
+		(company "AUTORS: ÀLEX REQUENA i ALFRED ABANTO")
+	)
 	(lib_symbols
 		(symbol "282837-2:282837-2"
 			(pin_names
@@ -2907,12 +2911,6 @@
 		(uuid "436a3616-166a-44b3-b79c-12ac3041ab99")
 	)
 	(junction
-		(at 62.23 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49e88690-44dc-4ce3-b330-7a3d8d0f02a5")
-	)
-	(junction
 		(at 189.23 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3287,16 +3285,6 @@
 			(type default)
 		)
 		(uuid "51416c4c-2eb5-40b4-b7e6-607b9747e81a")
-	)
-	(wire
-		(pts
-			(xy 62.23 127) (xy 62.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578870eb-6448-4e8e-b16f-a9743a30a233")
 	)
 	(wire
 		(pts
@@ -3740,16 +3728,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127) (xy 67.31 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c088da60-80f0-4c58-be6a-559dbf12532a")
-	)
-	(wire
-		(pts
 			(xy 208.28 99.06) (xy 208.28 101.6)
 		)
 		(stroke
@@ -3800,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 127) (xy 67.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63c10a1-656d-4b77-a88a-be7d7df2df3f")
+	)
+	(wire
+		(pts
 			(xy 111.76 127) (xy 111.76 133.35)
 		)
 		(stroke
@@ -3807,16 +3795,6 @@
 			(type default)
 		)
 		(uuid "d6fda6e9-c111-4f2c-a054-b404237ab887")
-	)
-	(wire
-		(pts
-			(xy 62.23 123.19) (xy 62.23 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5a92c0-e8d2-4080-923d-f919b6f041e8")
 	)
 	(wire
 		(pts
@@ -4104,7 +4082,7 @@
 	)
 	(global_label "V_BAT"
 		(shape input)
-		(at 62.23 138.43 270)
+		(at 64.77 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4114,7 +4092,7 @@
 		)
 		(uuid "f6227a5f-8704-421c-9472-70f040bca020")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 146.7976 90)
+			(at 56.4024 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,78 +4913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 62.23 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3807039f-8c29-42e3-94fa-0723411b2d75")
-		(property "Reference" "#PWR0109"
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 62.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d91df97a-352b-4b58-9ccb-049eb5c9fefd")
-		)
-		(instances
-			(project "etapa_de_potencia"
-				(path "/022df46b-4a1f-423b-84a0-dca974b893e8"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 36.83 90)
 		(unit 1)
@@ -5745,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "470uF"
 			(at 115.57 137.5409 0)
 			(effects
 				(font

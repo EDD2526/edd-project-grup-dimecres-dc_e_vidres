@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba")
 	(paper "A4")
+	(title_block
+		(title "ETAPA DE PROCESSAMENT")
+		(company "AUTORS: ÀLEX REQUENA i ALFRED ABANTO")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:NMUX1308PW"
 			(exclude_from_sim no)
