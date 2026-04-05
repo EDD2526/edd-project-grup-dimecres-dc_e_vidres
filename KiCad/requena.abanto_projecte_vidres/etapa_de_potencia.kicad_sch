@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "12k"
 			(at 163.83 92.71 90)
 			(effects
 				(font
@@ -4723,7 +4723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "motor_connector:TE_282837-2"
+		(property "Footprint" "282837-2:TE_282837-2"
 			(at 148.59 53.34 0)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "motor_connector:TE_282837-2"
+		(property "Footprint" "282837-2:TE_282837-2"
 			(at 148.59 60.96 0)
 			(effects
 				(font
@@ -6009,7 +6009,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5m"
+		(property "Value" "50m"
 			(at 116.84 88.8999 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 			(at 117.602 87.63 90)
 			(effects
 				(font
