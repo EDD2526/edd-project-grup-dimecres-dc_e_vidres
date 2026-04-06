@@ -4846,16 +4846,16 @@
 		(uuid "85e6450e-a7d4-48d0-8bbb-7ac94909fbbc")
 	)
 	(no_connect
-		(at 180.34 81.28)
-		(uuid "87c2b3b6-82bf-4a70-83e0-ed34081ce980")
-	)
-	(no_connect
 		(at 257.81 104.14)
 		(uuid "988d19e3-6580-467b-9485-9c53c0f3269d")
 	)
 	(no_connect
 		(at 52.07 161.29)
 		(uuid "a16bcc53-bc5a-4123-8806-789dea9b9e01")
+	)
+	(no_connect
+		(at 182.88 86.36)
+		(uuid "a2276d96-6d68-492f-8dd4-e67c7c1251cd")
 	)
 	(no_connect
 		(at 101.6 78.74)
@@ -7423,22 +7423,22 @@
 	)
 	(global_label "PWM"
 		(shape output)
-		(at 130.81 81.28 180)
+		(at 180.34 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "55d25b75-1df3-4eb5-982e-9ea975603854")
+		(uuid "562ebe0f-a7bf-4407-b8f1-a68a150ad952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.652 81.28 0)
+			(at 187.498 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7707,28 +7707,6 @@
 			)
 		)
 	)
-	(global_label "INB"
-		(shape output)
-		(at 182.88 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a00e65fa-e5af-4463-b8a6-fda84a154dc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0705 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IRQ"
 		(shape input)
 		(at 97.79 143.51 0)
@@ -7773,6 +7751,28 @@
 			)
 		)
 	)
+	(global_label "INB"
+		(shape output)
+		(at 130.81 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b677215b-c032-4c3b-bc8e-6a73cf898e71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.6195 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OPEN_FC"
 		(shape input)
 		(at 181.61 121.92 0)
@@ -7797,7 +7797,7 @@
 	)
 	(global_label "INA"
 		(shape output)
-		(at 182.88 86.36 0)
+		(at 182.88 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7805,9 +7805,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cda496ba-9066-4455-bdc3-2780267987fe")
+		(uuid "c8949046-4ee4-442a-b9c3-78abf0a9a8a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8891 86.36 0)
+			(at 188.8891 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
