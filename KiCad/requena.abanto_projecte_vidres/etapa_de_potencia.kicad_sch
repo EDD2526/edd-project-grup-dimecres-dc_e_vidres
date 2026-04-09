@@ -2732,6 +2732,12 @@
 		(uuid "09e02a15-21fc-4abf-8db5-4c297c950066")
 	)
 	(junction
+		(at 156.21 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2cad7b-1179-4bc6-a91d-39e6670629b5")
+	)
+	(junction
 		(at 111.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2750,12 +2756,6 @@
 		(uuid "0dce37e4-530c-4d6f-b337-8c33dfa886d8")
 	)
 	(junction
-		(at 119.38 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13ce9216-a97e-4122-9fcf-4fe52eccafdf")
-	)
-	(junction
 		(at 158.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2766,6 +2766,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b1abfe1-e7d7-4593-be8a-959152d210e7")
+	)
+	(junction
+		(at 119.38 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c06c27b-4209-4e63-bcef-0be264b64387")
 	)
 	(junction
 		(at 35.56 125.73)
@@ -2792,12 +2798,6 @@
 		(uuid "360d85b0-a958-468d-b650-f3e0151461db")
 	)
 	(junction
-		(at 154.94 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "362a9e76-a52c-4774-b529-ed059d4c87a2")
-	)
-	(junction
 		(at 119.38 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2820,6 +2820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b9db4d9-cbbb-4f77-b8bc-56083b0fffac")
+	)
+	(junction
+		(at 121.92 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eb913ef-2e4e-4275-a7a0-934a264c89ca")
 	)
 	(junction
 		(at 151.13 55.88)
@@ -2904,6 +2910,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c47cfe-2f8b-47f4-a5cc-783f3359d4fb")
+	)
+	(junction
+		(at 137.16 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f99262-d082-4fa2-970e-a91c273f5069")
 	)
 	(junction
 		(at 195.58 87.63)
@@ -3033,6 +3045,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 60.96) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aec4ec0-1ad1-4b7f-a9ec-ad59d1247a09")
+	)
+	(wire
+		(pts
 			(xy 165.1 85.09) (xy 170.18 85.09)
 		)
 		(stroke
@@ -3093,16 +3115,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 53.34) (xy 175.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1714eb91-d81d-4a1c-992c-ecab8ecaa0d8")
-	)
-	(wire
-		(pts
 			(xy 161.29 146.05) (xy 161.29 127)
 		)
 		(stroke
@@ -3110,16 +3122,6 @@
 			(type default)
 		)
 		(uuid "17c21c8b-6d63-4de1-ab9e-6a9c5a0876cb")
-	)
-	(wire
-		(pts
-			(xy 158.75 73.66) (xy 158.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1879ba67-fef6-444c-ab99-2559488b3be3")
 	)
 	(wire
 		(pts
@@ -3133,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 40.64) (xy 154.94 40.64)
+			(xy 151.13 40.64) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3163,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 34.29) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f722e4-3d38-46eb-84b5-cbb91ae01316")
+	)
+	(wire
+		(pts
 			(xy 215.9 127) (xy 227.33 127)
 		)
 		(stroke
@@ -3173,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 124.46 101.6)
+			(xy 165.1 101.6) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3220,6 +3232,16 @@
 			(type default)
 		)
 		(uuid "38f3b15f-2318-40aa-9493-b783884089d6")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a86c070-9593-46a0-8cee-53b0877322d3")
 	)
 	(wire
 		(pts
@@ -3293,16 +3315,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 175.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e41fec-c5b6-45eb-acaf-467238e99918")
-	)
-	(wire
-		(pts
 			(xy 119.38 101.6) (xy 124.46 101.6)
 		)
 		(stroke
@@ -3330,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "51416c4c-2eb5-40b4-b7e6-607b9747e81a")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546b24f1-63d2-41e3-b479-5a04a4d009f7")
 	)
 	(wire
 		(pts
@@ -3370,16 +3392,6 @@
 			(type default)
 		)
 		(uuid "59763738-9def-4a4a-8f8c-92f2295dd9a7")
-	)
-	(wire
-		(pts
-			(xy 154.94 40.64) (xy 158.75 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae84aeb-724c-4ade-9649-855287d603a2")
 	)
 	(wire
 		(pts
@@ -3453,6 +3465,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a883f89-7446-47b2-af3e-8422171f5882")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4da0aa-15b0-4b4f-b138-57cf8c48b6f7")
+	)
+	(wire
+		(pts
 			(xy 166.37 48.26) (xy 166.37 63.5)
 		)
 		(stroke
@@ -3460,16 +3492,6 @@
 			(type default)
 		)
 		(uuid "6bf3493a-fa64-4ade-a583-d7dd9a98c8e6")
-	)
-	(wire
-		(pts
-			(xy 151.13 55.88) (xy 175.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7c6d55-a077-4abd-9151-2aa58d7ea848")
 	)
 	(wire
 		(pts
@@ -3520,16 +3542,6 @@
 			(type default)
 		)
 		(uuid "711802f1-97af-4e1f-a16b-9adfaee7d280")
-	)
-	(wire
-		(pts
-			(xy 154.94 25.4) (xy 119.38 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b0629a-5b9a-42e0-805d-2446060badff")
 	)
 	(wire
 		(pts
@@ -3643,6 +3655,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 24.13) (xy 119.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3c6318-b81e-4453-812a-d0830eb4383e")
+	)
+	(wire
+		(pts
 			(xy 149.86 85.09) (xy 149.86 82.55)
 		)
 		(stroke
@@ -3660,6 +3682,16 @@
 			(type default)
 		)
 		(uuid "7f4d4237-b5cf-46ea-a3c4-91057d96a59e")
+	)
+	(wire
+		(pts
+			(xy 119.38 24.13) (xy 156.21 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f51212f-7a4c-4c51-837e-f445bfa169e1")
 	)
 	(wire
 		(pts
@@ -3713,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 35.56) (xy 121.92 40.64)
+			(xy 121.92 31.75) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3813,16 +3845,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 158.75 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa614d68-c043-437e-a99b-02cc2968072e")
-	)
-	(wire
-		(pts
 			(xy 116.84 127) (xy 111.76 127)
 		)
 		(stroke
@@ -3863,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 25.4) (xy 119.38 36.83)
+			(xy 119.38 21.59) (xy 119.38 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3933,23 +3955,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 40.64) (xy 154.94 25.4)
+			(xy 156.21 40.64) (xy 156.21 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc75bfd6-d177-47e0-a717-bfe1cb7158d3")
-	)
-	(wire
-		(pts
-			(xy 119.38 21.59) (xy 119.38 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb21f52-3804-4b58-8ce7-3c6ec772d2e6")
 	)
 	(wire
 		(pts
@@ -3960,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "c04d9583-20f0-472c-a07e-8ddbc0bf0b2e")
+	)
+	(wire
+		(pts
+			(xy 156.21 40.64) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1088e78-c3e2-4c2b-a09f-11dd973b1d19")
 	)
 	(wire
 		(pts
@@ -3980,26 +4002,6 @@
 			(type default)
 		)
 		(uuid "c677e1cf-0b12-4e49-8b09-e4371951469b")
-	)
-	(wire
-		(pts
-			(xy 142.24 72.39) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9aba052-65c7-4159-9b3c-06e3945a2a77")
-	)
-	(wire
-		(pts
-			(xy 166.37 73.66) (xy 166.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca4c3938-90a1-47d3-ae68-0bf8141c330a")
 	)
 	(wire
 		(pts
@@ -4080,6 +4082,16 @@
 			(type default)
 		)
 		(uuid "d6fda6e9-c111-4f2c-a054-b404237ab887")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d995fa91-f532-45da-b355-e4500076e777")
 	)
 	(wire
 		(pts
@@ -4203,6 +4215,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 53.34) (xy 175.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1c85ec-1ac5-4f5d-a0ef-b742af60dd6b")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 111.76 78.74)
 		)
 		(stroke
@@ -4243,13 +4265,45 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 175.26 60.96)
+			(xy 133.35 34.29) (xy 137.16 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffc73c8a-04f3-4eba-b3c7-bd2dd7bb3ef3")
+		(uuid "fd2fe4cb-0621-4e98-ad58-2b580f8d9bfb")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3466be-817c-43ad-a79e-3bfa948529b5")
+	)
+	(global_label "OUTM2"
+		(shape input)
+		(at 146.05 55.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03a39808-9bc9-42ee-8a91-9e8badae94f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 65.1547 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "V_BAT'"
 		(shape input)
@@ -4297,7 +4351,7 @@
 	)
 	(global_label "V_BAT"
 		(shape input)
-		(at 121.92 35.56 90)
+		(at 121.92 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4307,7 +4361,7 @@
 		)
 		(uuid "26276917-9fdc-4f0a-b57b-4f2ae7f1f42e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 27.1924 90)
+			(at 121.92 23.3824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,6 +4384,28 @@
 		(uuid "36f4f0b4-e987-4141-8ec9-4aea35b5f3fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.2409 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTM4"
+		(shape input)
+		(at 135.89 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f80d3c8-983e-4966-825c-f3ee0a563af3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 72.7747 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,6 +4516,94 @@
 		(uuid "98509d4f-34aa-4662-b6d0-09806359818f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.28 73.3962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTM1"
+		(shape input)
+		(at 135.89 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b498c9fe-41de-4007-a5fe-87346701404f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 44.0653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHUNT"
+		(shape input)
+		(at 119.38 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8f6bed7-23b3-4d3c-ab2e-80b36e2ba142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5338 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMPLIFICADO"
+		(shape input)
+		(at 173.99 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd72597c-bb79-4310-8a7d-75dfd5e0e264")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 100.1706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTM3"
+		(shape input)
+		(at 139.7 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dad5bc72-6ba0-4a0e-8b33-3707d3f6f3c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 51.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,16 +5344,16 @@
 	)
 	(symbol
 		(lib_id "282837-2:282837-2")
-		(at 182.88 53.34 0)
+		(at 182.88 63.5 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b3fda6c-9c7d-43a9-b327-938437195e3b")
 		(property "Reference" "P1"
-			(at 186.69 53.3399 0)
+			(at 186.69 63.5001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5362,7 @@
 			)
 		)
 		(property "Value" "282837-2"
-			(at 186.69 55.8799 0)
+			(at 186.69 60.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5371,7 @@
 			)
 		)
 		(property "Footprint" "282837-2:TE_282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5399,7 @@
 			)
 		)
 		(property "Comment" "282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5409,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5419,7 @@
 			)
 		)
 		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5429,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5439,7 @@
 			)
 		)
 		(property "PRICE" "0.28 USD"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5449,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5459,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5469,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5479,7 @@
 			)
 		)
 		(property "PARTREV" "G3"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5489,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5499,7 @@
 			)
 		)
 		(property "MP" "282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5509,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5519,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Good"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5529,7 @@
 			)
 		)
 		(property "Description_1" "Terminal Block Connector Wire Receptacle 2 5.08 mm 30-16 AWG Green 13.5 A 250 V | TE Connectivity 282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,12 +5545,6 @@
 			(uuid "aa353032-bc03-42fe-a0c3-110630b08c08")
 		)
 		(instances
-			(project ""
-				(path "/022df46b-4a1f-423b-84a0-dca974b893e8"
-					(reference "P1")
-					(unit 1)
-				)
-			)
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
 					(reference "P1")
@@ -5478,80 +5636,6 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 104.14 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3add4abc-573d-47c0-bc5d-31ec0c48df34")
-		(property "Reference" "C2"
-			(at 104.14 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 104.14 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 107.95 35.8648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6188663-b6e3-4123-abe0-b788c60df28d")
-		)
-		(pin "2"
-			(uuid "bf1354be-e08f-43d1-872b-80f21df098b4")
-		)
-		(instances
-			(project ""
-				(path "/022df46b-4a1f-423b-84a0-dca974b893e8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5874,6 +5958,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 129.54 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4903b222-668c-4313-b4f2-00378ae405ac")
+		(property "Reference" "C25"
+			(at 129.54 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.54 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.35 33.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecec2a10-ce5e-47e2-8940-6412efef115d")
+		)
+		(pin "2"
+			(uuid "f49a4cc1-cb68-4667-8e21-717745e9ee9d")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 201.93 146.05 270)
 		(unit 1)
@@ -5942,16 +6094,15 @@
 	)
 	(symbol
 		(lib_id "282837-2:282837-2")
-		(at 182.88 60.96 0)
+		(at 182.88 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55854ee3-ae98-4575-af35-16903ab1284c")
 		(property "Reference" "P2"
-			(at 186.69 60.9599 0)
+			(at 186.69 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6111,7 @@
 			)
 		)
 		(property "Value" "282837-2"
-			(at 186.69 63.4999 0)
+			(at 186.69 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +6120,7 @@
 			)
 		)
 		(property "Footprint" "282837-2:TE_282837-2"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +6130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +6139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6148,7 @@
 			)
 		)
 		(property "Comment" "282837-2"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6158,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6168,7 @@
 			)
 		)
 		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6178,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6188,7 @@
 			)
 		)
 		(property "PRICE" "0.28 USD"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6198,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6208,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6218,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6228,7 @@
 			)
 		)
 		(property "PARTREV" "G3"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6238,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6248,7 @@
 			)
 		)
 		(property "MP" "282837-2"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6258,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6268,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Good"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6278,7 @@
 			)
 		)
 		(property "Description_1" "Terminal Block Connector Wire Receptacle 2 5.08 mm 30-16 AWG Green 13.5 A 250 V | TE Connectivity 282837-2"
-			(at 182.88 60.96 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,12 +6294,6 @@
 			(uuid "af6cab37-5d30-415c-a2dc-9401f4dcd11a")
 		)
 		(instances
-			(project "etapa_de_potencia"
-				(path "/022df46b-4a1f-423b-84a0-dca974b893e8"
-					(reference "P2")
-					(unit 1)
-				)
-			)
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
 					(reference "P2")
@@ -6159,7 +6304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 73.66 0)
+		(at 166.37 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6168,7 +6313,7 @@
 		(fields_autoplaced yes)
 		(uuid "55b1fc2b-9b3e-40bb-a12a-ef47fcaa8f99")
 		(property "Reference" "#PWR011"
-			(at 166.37 80.01 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 78.74 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 73.66 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 73.66 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 73.66 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,6 +7246,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 104.14 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de47b84-cde4-45a0-bad9-9e0d14bc79e2")
+		(property "Reference" "C2"
+			(at 105.029 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 105.029 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 100.33 37.7952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c6025b-7413-4429-9ef3-aec2be73f9dc")
+		)
+		(pin "2"
+			(uuid "6791e56d-d11f-4c23-a5df-56c6745d33d9")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 96.52 148.59 0)
 		(unit 1)
@@ -7245,7 +7458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 73.66 0)
+		(at 142.24 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7254,7 +7467,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1e74592-d0fa-4f27-9291-d95a87c6e4c7")
 		(property "Reference" "#PWR02"
-			(at 142.24 80.01 0)
+			(at 142.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 78.74 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 73.66 0)
+			(at 142.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 73.66 0)
+			(at 142.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 73.66 0)
+			(at 142.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 73.66 0)
+		(at 158.75 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7673,7 +7886,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4556937-6ff4-4f5d-9d47-002b4394b61a")
 		(property "Reference" "#PWR010"
-			(at 158.75 80.01 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 78.74 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 73.66 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 73.66 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 73.66 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
