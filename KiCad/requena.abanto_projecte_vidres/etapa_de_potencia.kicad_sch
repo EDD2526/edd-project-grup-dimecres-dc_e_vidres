@@ -6094,7 +6094,8 @@
 	)
 	(symbol
 		(lib_id "282837-2:282837-2")
-		(at 182.88 53.34 0)
+		(at 182.88 55.88 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6102,7 +6103,7 @@
 		(dnp no)
 		(uuid "55854ee3-ae98-4575-af35-16903ab1284c")
 		(property "Reference" "P2"
-			(at 186.69 53.3399 0)
+			(at 186.69 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6112,7 @@
 			)
 		)
 		(property "Value" "282837-2"
-			(at 186.69 55.8799 0)
+			(at 186.69 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6121,7 @@
 			)
 		)
 		(property "Footprint" "282837-2:TE_282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6149,7 @@
 			)
 		)
 		(property "Comment" "282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6159,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6169,7 @@
 			)
 		)
 		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6179,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6189,7 @@
 			)
 		)
 		(property "PRICE" "0.28 USD"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6199,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6209,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6219,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6229,7 @@
 			)
 		)
 		(property "PARTREV" "G3"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6239,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/282837-2/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6249,7 @@
 			)
 		)
 		(property "MP" "282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6259,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6269,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Good"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6279,7 @@
 			)
 		)
 		(property "Description_1" "Terminal Block Connector Wire Receptacle 2 5.08 mm 30-16 AWG Green 13.5 A 250 V | TE Connectivity 282837-2"
-			(at 182.88 53.34 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
