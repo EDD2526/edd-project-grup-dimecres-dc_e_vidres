@@ -492,29 +492,9 @@
       },
       {
         "clearance": 0.5,
-        "name": "INA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "via_diameter": 1.2,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.5,
-        "name": "INB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "via_diameter": 1.2,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.5,
         "name": "V_BAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 1.2,
@@ -526,20 +506,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "V_BAT",
-        "pattern": "V_BAT"
-      },
-      {
-        "netclass": "INA",
-        "pattern": "INA"
-      },
-      {
-        "netclass": "INB",
-        "pattern": "INB"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
