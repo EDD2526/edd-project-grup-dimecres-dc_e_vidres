@@ -4503,6 +4503,50 @@
 			)
 		)
 	)
+	(global_label "REALIMENTACION_BUFFER"
+		(shape input)
+		(at 181.61 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92cdbb23-c472-4e01-b196-881ab982f909")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 122.0629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTSHUNT"
+		(shape input)
+		(at 129.54 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97412ecc-b0d3-4dc5-9fba-a80f7f4a5414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 97.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 208.28 80.01 90)
@@ -4547,6 +4591,28 @@
 			)
 		)
 	)
+	(global_label "REALIMENTACION_NOINV"
+		(shape input)
+		(at 151.13 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bae7c15a-22b3-4a6c-8494-9a3008001920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 121.8211 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHUNT"
 		(shape input)
 		(at 119.38 77.47 0)
@@ -4569,7 +4635,7 @@
 			)
 		)
 	)
-	(global_label "AMPLIFICADO"
+	(global_label "OUTNOINV"
 		(shape input)
 		(at 173.99 85.09 270)
 		(fields_autoplaced yes)
@@ -4581,7 +4647,7 @@
 		)
 		(uuid "cd72597c-bb79-4310-8a7d-75dfd5e0e264")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 100.1706 90)
+			(at 173.99 97.3887 90)
 			(effects
 				(font
 					(size 1.27 1.27)
