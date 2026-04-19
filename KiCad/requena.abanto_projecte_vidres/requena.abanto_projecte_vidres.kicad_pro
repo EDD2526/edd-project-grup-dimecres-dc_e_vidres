@@ -817,7 +817,7 @@
         "uuid": "4006572a-320d-4ed7-bf52-f860e1c069c6"
       }
     ],
-    "used_designators": "U8,L1-3,#PWR12-15,C20,C26-37,R15-18",
+    "used_designators": "#PWR15",
     "variants": []
   },
   "sheets": [
