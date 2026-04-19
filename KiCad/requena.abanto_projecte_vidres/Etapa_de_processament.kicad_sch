@@ -4962,6 +4962,10 @@
 		(uuid "040e72d5-e570-44ea-8855-fa3ffb08968d")
 	)
 	(no_connect
+		(at 80.01 180.34)
+		(uuid "115f88d7-3230-4215-ac40-ff0810dd509a")
+	)
+	(no_connect
 		(at 80.01 170.18)
 		(uuid "15a843fe-f48d-45b2-ba47-f0d3d97de5a5")
 	)
