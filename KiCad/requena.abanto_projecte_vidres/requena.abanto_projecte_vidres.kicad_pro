@@ -82,19 +82,7 @@
           ""
         ],
         [
-          "silk_overlap|149254819|47548094|95436e8c-2d9e-434a-8ec7-326cd07995c7|c5231704-452f-41ac-9947-c03aed9afe8e",
-          ""
-        ],
-        [
           "silk_overlap|155697381|68510000|173cef01-cc64-4eb0-bd5e-4a2e1890e303|ac3f230c-4b92-4021-90aa-662286b871c3",
-          ""
-        ],
-        [
-          "silk_overlap|162520000|47638094|3f3de981-7acb-4626-9e5b-4834f88d8c2e|7fbf8740-d977-48b2-9901-fc4df6bbcc8f",
-          ""
-        ],
-        [
-          "silk_overlap|191680000|47963094|c7803469-6d40-4815-a88a-c4562c85a421|ca596e51-0ed6-45a6-9824-e39c35ed30ed",
           ""
         ],
         [
@@ -829,7 +817,7 @@
         "uuid": "4006572a-320d-4ed7-bf52-f860e1c069c6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U8",
     "variants": []
   },
   "sheets": [
