@@ -13,12 +13,12 @@ View this project on [CADLAB.io](https://cadlab.io/project/30192).
 
 
 ## Diagrama de blocs
-![DIAGRAMA](DIAGRAMADEBLOCS.png)
+![DIAGRAMA](DIAGRAMA_DE_BLOCS.png)
 
 ### Descripció/funcionalitat de cada bloc
 Microcontrolador PIC24HJ: Cervell del sistema; processa dades i coordina tots els mòduls i comunicacions.
 
-Lector RFID PN5120: Mòdul de comunicació sense contacte per a identificació de targetes via interfície SPI.
+Lector RFID MFRC522: Mòdul de comunicació sense contacte per a identificació de targetes via interfície SPI.
 
 Polsadors B3F: Interfície d'usuari per a l'activació manual de funcions del sistema.
 
@@ -67,7 +67,7 @@ Regulador Lineal (800-mA) | LM1117DT-3.3 | TO-252-3 | [Datasheet (Rev. Q)](http:
 
 ### Eines:
 
-  * KiCad 9.0 
+  * KiCad 10.0 
 
 
 ### Configuraci&#243; :

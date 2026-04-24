@@ -481,6 +481,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -4790,6 +4913,12 @@
 		(uuid "7d298d5e-cc3f-444b-b6e0-fa934d7efe11")
 	)
 	(junction
+		(at 106.68 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d7851af-caa3-4206-b629-6fa8e2df1f24")
+	)
+	(junction
 		(at 179.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4856,6 +4985,12 @@
 		(uuid "a90a4f28-2fee-44e6-98eb-0ca5fd74dd73")
 	)
 	(junction
+		(at 97.79 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa96152e-363f-428e-93bb-658d2eeaadae")
+	)
+	(junction
 		(at 85.09 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4878,6 +5013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0eb4d4d-b632-45a8-a8d9-fc1d1ce6c282")
+	)
+	(junction
+		(at 104.14 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c863eef2-b82a-46f4-acbf-a473b7595636")
 	)
 	(junction
 		(at 116.84 185.42)
@@ -5228,6 +5369,16 @@
 			(type default)
 		)
 		(uuid "0d98e3bc-da83-4dfe-b95d-2834d772349f")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1276c183-ae50-4240-a428-7c53199d26c7")
 	)
 	(wire
 		(pts
@@ -6741,6 +6892,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad19fd20-6373-4bc8-9ce0-8067c104974f")
+	)
+	(wire
+		(pts
 			(xy 151.13 144.78) (xy 156.21 144.78)
 		)
 		(stroke
@@ -6751,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 101.6 76.2)
+			(xy 111.76 76.2) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6891,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 101.6 81.28)
+			(xy 107.95 81.28) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7068,6 +7229,16 @@
 			(type default)
 		)
 		(uuid "ce29d6bf-6126-40e5-a5cd-f1f265f27e81")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce81ea79-6a1a-44d8-aa80-f99b1e9efdbf")
 	)
 	(wire
 		(pts
@@ -7371,7 +7542,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 121.92) (xy 99.06 121.92)
+			(xy 96.52 121.92) (xy 97.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8989,10 +9160,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07fa0ec0-dc5b-4e36-81f7-86e82bc505b9")
 		(property "Reference" "C26"
-			(at 132.08 167.6462 0)
+			(at 127.762 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9002,8 +9172,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 132.08 170.1862 0)
+		(property "Value" "150 pF"
+			(at 126.492 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9345,7 +9515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1.5 uH"
 			(at 157.48 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9596,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.5"
 			(at 148.59 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.5"
 			(at 148.59 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 97.7963 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10217,7 +10387,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "22 pF"
 			(at 134.6263 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10298,7 +10468,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 132.08 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10380,7 +10550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "47 pF"
 			(at 142.24 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,6 +10687,85 @@
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644f7115-893b-45f8-8d05-c6edb99196cb")
+		(property "Reference" "TP1"
+			(at 100.33 117.3479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 100.33 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 102.87 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c05fb85-2c1b-4dbb-8e04-47836e886233")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10873,10 +11122,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76a2ad22-a698-4a6d-88e4-8e3e55d770de")
 		(property "Reference" "C20"
-			(at 132.08 162.5662 0)
+			(at 122.936 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10886,8 +11134,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 132.08 165.1062 0)
+		(property "Value" "150 pF"
+			(at 122.936 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11642,10 +11890,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d172526-d2b5-4591-b50a-ff43088ef29b")
 		(property "Reference" "C28"
-			(at 134.6263 165.1 90)
+			(at 134.874 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11654,8 +11901,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 134.6263 167.64 90)
+		(property "Value" "22 pF"
+			(at 134.874 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12255,6 +12502,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5158450-86b3-46e4-ba63-cc49cf0403be")
+		(property "Reference" "TP4"
+			(at 106.68 76.7079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 109.22 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b64c6bbe-75ad-457f-a78c-726375211502")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 168.91 180)
 		(unit 1)
@@ -12277,7 +12603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "47 pF"
 			(at 142.24 170.1735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +12856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2,2 k"
 			(at 90.17 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,6 +13183,85 @@
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6faeb3b-03d1-4fe1-ac93-915ab4ba812e")
+		(property "Reference" "TP3"
+			(at 109.22 71.6279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 74.1679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c711d293-5edf-4eab-a434-78a996a2f140")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14018,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 97.7963 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14187,7 +14592,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2 uH"
 			(at 121.92 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14622,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2 uH"
 			(at 121.92 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
