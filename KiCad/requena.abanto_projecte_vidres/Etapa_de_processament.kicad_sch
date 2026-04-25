@@ -4745,6 +4745,12 @@
 		(uuid "dd0e0828-3466-48d6-9c59-3b48d3653918")
 	)
 	(junction
+		(at 121.92 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054cf072-e510-4afa-96b9-a0f008859619")
+	)
+	(junction
 		(at 101.6 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4983,6 +4989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96abad74-7be3-41ee-b39f-0840acadd1c4")
+	)
+	(junction
+		(at 97.79 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d6465f-43db-4238-9a5f-9aa3aafb84d5")
 	)
 	(junction
 		(at 101.6 185.42)
@@ -5382,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 132.08) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099d7882-6e6d-47f4-b73b-73992fcb7708")
+	)
+	(wire
+		(pts
 			(xy 234.95 55.88) (xy 237.49 55.88)
 		)
 		(stroke
@@ -5639,6 +5661,16 @@
 			(type default)
 		)
 		(uuid "2583d215-4a64-4050-b4d5-15543d15ce17")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b6022e-7086-4757-9b65-941273ce62b7")
 	)
 	(wire
 		(pts
@@ -6249,6 +6281,16 @@
 			(type default)
 		)
 		(uuid "6888aed6-4fcd-43df-9d7e-724c549c6d36")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ab005c-c7b2-4565-98fb-f76f36c17971")
 	)
 	(wire
 		(pts
@@ -6962,7 +7004,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 121.92) (xy 99.06 121.92)
+			(xy 96.52 121.92) (xy 97.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9526,6 +9568,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 97.79 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ffadddf-5d79-461a-a3cf-2ec160306117")
+		(property "Reference" "TP3"
+			(at 100.33 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 100.33 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e7b5b11-da0f-4488-bc68-569a4a884628")
+		)
+		(pin "2"
+			(uuid "c1088650-07b3-47de-94a9-df084cee7bbe")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 109.22 185.42 0)
 		(unit 1)
@@ -10669,10 +10793,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56924d3c-cbaf-407b-a96b-8ffd9b612936")
 		(property "Reference" "C31"
-			(at 97.7963 128.27 90)
+			(at 100.838 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,7 +10805,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 97.7963 130.81 90)
+			(at 100.838 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
