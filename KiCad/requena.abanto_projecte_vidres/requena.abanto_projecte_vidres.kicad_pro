@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,6 +61,10 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "silk_over_copper|110717972|85580207|7f6c8252-4bd7-4bd1-affe-c313929d6e86|3bd6da14-3114-406a-881e-c864ec9b7487",
+          ""
+        ],
         [
           "solder_mask_bridge|184760000|78861394|3c47528e-40a9-4f8b-a2ea-f7a587a1eeb0|8c1331f9-6921-4eda-82f3-30b53269789c",
           ""
@@ -163,6 +167,18 @@
         ],
         [
           "solder_mask_bridge|189660000|82361394|9dbfd5ed-0975-414a-9196-7e3269177f1c|2ca17391-acb6-4bb1-ae32-eeb9bea86730",
+          ""
+        ],
+        [
+          "text_height|110720000|85580000|7f6c8252-4bd7-4bd1-affe-c313929d6e86|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|110720000|85580000|7f6c8252-4bd7-4bd1-affe-c313929d6e86|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "zones_intersect|125567500|93310000|60b09005-d959-4ff9-8ddd-bfb89903e32c|9baacd08-54fc-4bc9-804c-d941fc5e40ae",
           ""
         ]
       ],
@@ -893,7 +909,7 @@
         "uuid": "4006572a-320d-4ed7-bf52-f860e1c069c6"
       }
     ],
-    "used_designators": "TP1-5,R17",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

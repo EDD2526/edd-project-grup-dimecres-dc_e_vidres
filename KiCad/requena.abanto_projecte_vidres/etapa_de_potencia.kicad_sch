@@ -3154,6 +3154,16 @@
 		)
 		(uuid "aa943144-63c6-4efc-9853-35a051112e78")
 	)
+	(text "ETAPA DE ALIMENTACIO\n"
+		(exclude_from_sim no)
+		(at 167.132 120.142 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "fce472a5-0707-466a-bbca-a7e430729ef2")
+	)
 	(junction
 		(at 154.94 80.01)
 		(diameter 0)
@@ -3197,6 +3207,18 @@
 		(uuid "13215698-e78c-443c-a32e-d58464eb7875")
 	)
 	(junction
+		(at 81.28 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17816b9f-8d5f-4c83-8a2c-defe5d4b5b59")
+	)
+	(junction
+		(at 82.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f0411a-fc70-4955-b2e4-97db807f18e0")
+	)
+	(junction
 		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3237,6 +3259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ab70e7e-d858-4c44-a1d4-c717580b7f54")
+	)
+	(junction
+		(at 96.52 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b070727-423a-4687-b9e4-46d8393f86c2")
 	)
 	(junction
 		(at 104.14 74.93)
@@ -3299,6 +3327,12 @@
 		(uuid "845a61f4-f36d-46fd-94ca-a94efb9a6a14")
 	)
 	(junction
+		(at 73.66 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba62f51-ab32-4549-bfdd-15b884b0b8da")
+	)
+	(junction
 		(at 135.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3341,6 +3375,12 @@
 		(uuid "af2bcd77-91b7-42fb-991b-f885aec72553")
 	)
 	(junction
+		(at 116.84 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b181f63c-d107-4443-b24d-0eb6b28ea66c")
+	)
+	(junction
 		(at 127 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3369,6 +3409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b73a5867-8f61-435a-9a24-50c9753ab119")
+	)
+	(junction
+		(at 82.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c298022c-5227-4501-a8be-d3cc49c810fa")
 	)
 	(junction
 		(at 180.34 82.55)
@@ -3417,6 +3463,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f11ec2-eda0-4b1d-9ef2-3b1e1720c0e2")
+	)
+	(junction
+		(at 116.84 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba11e10-7654-4714-bebe-420461e997ff")
 	)
 	(junction
 		(at 111.76 132.08)
@@ -3534,6 +3586,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111fb705-ac06-4644-893c-90fbd3268ecf")
+	)
+	(wire
+		(pts
 			(xy 111.76 132.08) (xy 127 132.08)
 		)
 		(stroke
@@ -3571,6 +3633,16 @@
 			(type default)
 		)
 		(uuid "1603cf90-db46-4b0e-9446-0b2ec556aeda")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 80.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e8c76-fad4-43b6-874f-293e2fe8ce91")
 	)
 	(wire
 		(pts
@@ -3644,6 +3716,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7f1328-a773-4898-837e-5e3e062e4854")
+	)
+	(wire
+		(pts
 			(xy 149.86 96.52) (xy 121.92 96.52)
 		)
 		(stroke
@@ -3684,6 +3766,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 69.85) (xy 48.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3891e56c-f252-4ff2-8273-8f3b240086c1")
+	)
+	(wire
+		(pts
 			(xy 96.52 132.08) (xy 111.76 132.08)
 		)
 		(stroke
@@ -3721,6 +3813,16 @@
 			(type default)
 		)
 		(uuid "3e5aafcf-14b8-47b7-ae95-faa346029107")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e852400-39ee-47d5-b893-3acde626fd9d")
 	)
 	(wire
 		(pts
@@ -4264,6 +4366,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fce531-3f04-4018-b704-f2106e8661c6")
+	)
+	(wire
+		(pts
 			(xy 214.63 132.08) (xy 214.63 134.62)
 		)
 		(stroke
@@ -4324,6 +4436,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a59a915-7a09-457f-bd1e-3a8e1e536ca7")
+	)
+	(wire
+		(pts
 			(xy 106.68 85.09) (xy 109.22 85.09)
 		)
 		(stroke
@@ -4344,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e250fd0-39e0-47fa-a6d5-f0c11d6d4da8")
+	)
+	(wire
+		(pts
 			(xy 180.34 82.55) (xy 182.88 82.55)
 		)
 		(stroke
@@ -4354,6 +4486,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 80.01) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16d00d7-0f5f-4e30-a356-a00f9c63ad4d")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e15380-cf59-45d6-9065-11d75306b485")
+	)
+	(wire
+		(pts
 			(xy 172.72 132.08) (xy 181.61 132.08)
 		)
 		(stroke
@@ -4361,6 +4513,16 @@
 			(type default)
 		)
 		(uuid "a447ea8c-7e2c-4396-ae69-9d8deb7b7aed")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaba5c48-9d32-4a4f-a93d-16410c5281c3")
 	)
 	(wire
 		(pts
@@ -4421,6 +4583,26 @@
 			(type default)
 		)
 		(uuid "b24627a1-cc0a-4693-a0e9-6d24ae59d8dd")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6583c95-df8f-4ee3-a79d-859f9eb8fba6")
+	)
+	(wire
+		(pts
+			(xy 48.26 74.93) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b761d823-19f5-4393-8aab-29019865ee08")
 	)
 	(wire
 		(pts
@@ -4584,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 88.9 43.18)
+			(xy 80.01 43.18) (xy 82.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4594,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 134.62 80.01)
+			(xy 106.68 80.01) (xy 116.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4806,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 121.92 96.52)
+			(xy 116.84 90.17) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94c6a26-9a27-4e31-bbf3-abb7bfaad409")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 80.01 40.64)
+			(xy 88.9 40.64) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5144,6 +5336,30 @@
 			)
 		)
 	)
+	(global_label "PWM"
+		(shape input)
+		(at 48.26 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b530441b-86b4-4677-a0bf-c8163f18eeee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 48.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "REALIMENTACION_NOINV"
 		(shape input)
 		(at 135.89 91.44 270)
@@ -5395,6 +5611,87 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 82.55 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eaf1be4-e042-4ba2-968a-7347160e12e7")
+		(property "Reference" "INB1"
+			(at 80.264 49.022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 80.01 46.9901 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ba0fbeb-1610-4f50-82f5-f2b6d064b0bb")
+		)
+		(pin "1"
+			(uuid "1dc2ed75-aece-4d69-8463-c61a188c2ecb")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "INB1")
 					(unit 1)
 				)
 			)
@@ -6433,6 +6730,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
+		(at 116.84 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32013a71-9d10-44bf-8f88-9902d472744f")
+		(property "Reference" "OUTSHUNT1"
+			(at 117.856 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 119.634 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c85021-3115-43b4-a462-48fca58413a5")
+		)
+		(pin "2"
+			(uuid "1b09fc89-c0c6-47f0-8c12-429e1d572446")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "OUTSHUNT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
 		(at 78.74 139.7 270)
 		(mirror x)
 		(unit 1)
@@ -6443,7 +6819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d89ca4f-ae11-4f5f-a444-05079ebdeab1")
-		(property "Reference" "TP5"
+		(property "Reference" "VBAT1"
 			(at 76.2 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6883,7 @@
 		(instances
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
-					(reference "TP5")
+					(reference "VBAT1")
 					(unit 1)
 				)
 			)
@@ -8205,6 +8581,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 81.28 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "833786ab-5bd4-455f-9766-6082ea741171")
+		(property "Reference" "INA1"
+			(at 83.566 34.798 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 83.82 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 81.28 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 81.28 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8b49566-5b8c-45b6-aafb-5bd6d72a1342")
+		)
+		(pin "1"
+			(uuid "acb9b0d8-1357-489b-9522-30f8e8a11bf6")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "INA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Shunt")
 		(at 104.14 82.55 0)
 		(unit 1)
@@ -8227,7 +8684,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50m"
+		(property "Value" "25m"
 			(at 101.6 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,6 +8750,88 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 48.26 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a636e9-c3cd-43a8-be78-d9ff0632467b")
+		(property "Reference" "PWM1"
+			(at 50.8 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 50.8 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64f10444-5830-40c3-90c6-fee6b3e42f46")
+		)
+		(pin "2"
+			(uuid "d7adf877-761e-46d3-8cb4-349d3df3f68b")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
+					(reference "PWM1")
 					(unit 1)
 				)
 			)
@@ -8634,7 +9173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b797ecf-2829-4e6d-adc3-781679f1631a")
-		(property "Reference" "TP4"
+		(property "Reference" "V_OUT_DCDC1"
 			(at 180.34 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +9193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 180.34 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8696,7 +9235,7 @@
 		(instances
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/0b0d2692-6fb2-4ddb-9a32-8981b2e43675"
-					(reference "TP4")
+					(reference "V_OUT_DCDC1")
 					(unit 1)
 				)
 			)
