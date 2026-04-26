@@ -1184,10 +1184,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1198,23 +1195,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 3.175 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1239,9 +1238,31 @@
 					)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1272,10 +1293,10 @@
 					)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1287,7 +1308,31 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1310,19 +1355,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -1332,8 +1365,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1353,9 +1410,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,6 +1420,43 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4943,10 +5037,22 @@
 		(uuid "63596f49-69cf-4e16-93ab-fdb1516f77b4")
 	)
 	(junction
+		(at 116.84 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657a0f79-8d40-41c5-affe-75676fdf156c")
+	)
+	(junction
 		(at 107.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b4e7a0b-68a8-4f16-831f-a5ef5587a786")
+	)
+	(junction
+		(at 101.6 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ad80f15-8ae5-4fd3-998b-15d086618b6b")
 	)
 	(junction
 		(at 162.56 129.54)
@@ -5015,12 +5121,6 @@
 		(uuid "99d6465f-43db-4238-9a5f-9aa3aafb84d5")
 	)
 	(junction
-		(at 101.6 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b400c66-ab67-449a-a2bd-149b9ff56368")
-	)
-	(junction
 		(at 170.18 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5079,12 +5179,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c40ae940-3329-424c-96f3-c8a23187ee4a")
-	)
-	(junction
-		(at 116.84 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc3efeb9-c4a8-4fbb-87d1-fe6f77e2f391")
 	)
 	(junction
 		(at 120.65 104.14)
@@ -5588,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 175.26) (xy 116.84 185.42)
+			(xy 116.84 175.26) (xy 116.84 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +5902,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 182.88) (xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363660d4-8586-49a6-9433-266805a8c9ab")
+	)
+	(wire
+		(pts
 			(xy 180.34 40.64) (xy 181.61 40.64)
 		)
 		(stroke
@@ -5928,6 +6032,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 87.63) (xy 203.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9360d0-3766-4de1-b1c4-86f77af92abd")
+	)
+	(wire
+		(pts
 			(xy 205.74 40.64) (xy 207.01 40.64)
 		)
 		(stroke
@@ -5955,6 +6069,16 @@
 			(type default)
 		)
 		(uuid "41298fdf-243a-4b0d-b704-c38758b3ef6e")
+	)
+	(wire
+		(pts
+			(xy 195.58 92.71) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415d1369-c4ee-452c-863e-dba760a17bbf")
 	)
 	(wire
 		(pts
@@ -6165,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "5b12975a-babf-45ea-becd-8f3b02ba1734")
+	)
+	(wire
+		(pts
+			(xy 116.84 182.88) (xy 116.84 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2e6f0a-ecb9-4684-903d-5caad99413a7")
 	)
 	(wire
 		(pts
@@ -6518,16 +6652,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 87.63) (xy 199.39 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754bd0ce-9140-48ac-87c5-4473bc7ec217")
-	)
-	(wire
-		(pts
 			(xy 80.01 142.24) (xy 80.01 144.78)
 		)
 		(stroke
@@ -6588,6 +6712,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 182.88) (xy 105.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80090a76-1537-4901-a3fc-92f22deedfde")
+	)
+	(wire
+		(pts
 			(xy 156.21 171.45) (xy 156.21 170.18)
 		)
 		(stroke
@@ -6605,16 +6739,6 @@
 			(type default)
 		)
 		(uuid "83651a75-f264-40e0-b797-8b41dbfd2ef3")
-	)
-	(wire
-		(pts
-			(xy 113.03 185.42) (xy 116.84 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c9d5b1-84ef-4fb4-b66f-03fea6295eed")
 	)
 	(wire
 		(pts
@@ -6808,6 +6932,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 187.96) (xy 109.22 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996eb74c-83af-4c2c-abf6-92188f29930e")
+	)
+	(wire
+		(pts
 			(xy 111.76 116.84) (xy 111.76 107.95)
 		)
 		(stroke
@@ -6978,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 189.23 87.63)
+			(xy 189.23 87.63) (xy 191.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7055,6 +7189,16 @@
 			(type default)
 		)
 		(uuid "a789b86b-193f-4fd5-b4bc-a52681e52d44")
+	)
+	(wire
+		(pts
+			(xy 101.6 182.88) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7df2db2-fe5e-4fbc-ba91-b826eadcd78d")
 	)
 	(wire
 		(pts
@@ -7325,16 +7469,6 @@
 			(type default)
 		)
 		(uuid "c0049476-bd32-412d-8401-8471e440f5f7")
-	)
-	(wire
-		(pts
-			(xy 101.6 185.42) (xy 105.41 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06b4862-11c3-44fd-a76d-503513efe016")
 	)
 	(wire
 		(pts
@@ -7818,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 175.26) (xy 101.6 185.42)
+			(xy 101.6 175.26) (xy 101.6 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8196,30 +8330,6 @@
 			)
 		)
 	)
-	(global_label "OSC2RFID"
-		(shape input)
-		(at 101.6 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "248590a9-98d2-48d3-8b6d-476ad62616c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.8381 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IRQ"
 		(shape input)
 		(at 83.82 154.94 0)
@@ -8353,6 +8463,30 @@
 		(uuid "3f838658-5834-4a64-8780-6ec6d4b08b89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.67 125.3453 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "OSC1RFID"
+		(shape input)
+		(at 101.6 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bcfd7c9-6408-42e3-8738-1ad9a9e9015f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.8381 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +8954,7 @@
 			)
 		)
 	)
-	(global_label "OSC1RFID"
+	(global_label "OSC2RFID"
 		(shape input)
 		(at 116.84 175.26 0)
 		(fields_autoplaced yes)
@@ -8830,7 +8964,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9287bec2-b278-4091-ba02-cb70443eaf08")
+		(uuid "9162c473-2a03-4c8d-9331-c01b11ebaf62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.0781 175.26 0)
 			(hide yes)
@@ -9036,6 +9170,30 @@
 			)
 		)
 	)
+	(global_label "OSC2"
+		(shape input)
+		(at 189.23 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac203ec6-062b-4617-9b97-4aadec5cfa9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.2347 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OSC2RFID"
 		(shape input)
 		(at 29.21 152.4 180)
@@ -9180,30 +9338,6 @@
 			)
 		)
 	)
-	(global_label "OSC2"
-		(shape input)
-		(at 203.2 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c81ab9ca-cfde-48a6-8d27-3436acf97b15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2047 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CAN_RX"
 		(shape input)
 		(at 130.81 71.12 180)
@@ -9225,30 +9359,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "OSC1"
-		(shape input)
-		(at 189.23 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdcb72c7-a287-4a13-9871-3c4ca53d0cbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2347 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -9369,6 +9479,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "OSC1"
+		(shape input)
+		(at 203.2 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d77da2f3-a8d6-498f-9b2a-c44cb3aac04d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2047 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9938,92 +10072,6 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
 					(reference "VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 109.22 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16035e3d-cd7e-4666-933f-7f1f86f10f21")
-		(property "Reference" "Y1"
-			(at 109.22 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27.12 MHz"
-			(at 109.22 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "08acff16-d605-4530-9b5c-c342df23e804")
-		)
-		(pin "1"
-			(uuid "6a0b6188-fdf2-4b46-b9bc-b217215b8d82")
-		)
-		(instances
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-			(project "Etapa_de_processament"
-				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11230,6 +11278,114 @@
 			(project "requena.abanto_projecte_vidres"
 				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 109.22 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57660b84-3874-49e8-9795-37a3f1e93a8c")
+		(property "Reference" "Y2"
+			(at 109.22 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 109.22 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 109.22 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 109.22 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 109.22 195.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 109.22 198.12 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8a6a7edb-ebfa-4aaa-b82f-9a8e7d889c2b")
+		)
+		(pin "1"
+			(uuid "8be3d320-615e-4186-9044-76ed9c699a4e")
+		)
+		(pin "2"
+			(uuid "98a5813a-c807-46a7-bd12-cbf6aa781ee4")
+		)
+		(pin "4"
+			(uuid "867d8597-2209-4c04-a46b-1ee917f6cdc4")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -12497,6 +12653,114 @@
 			(project "Etapa_de_processament"
 				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 195.58 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81af9d8e-3f2d-45bb-84ad-adc629ee1ac8")
+		(property "Reference" "Y1"
+			(at 195.58 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 195.58 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 195.58 100.33 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d3f9a4c6-33b4-493f-a956-c9313af738db")
+		)
+		(pin "4"
+			(uuid "fc715bab-ce51-47a2-9b4f-5e1fa0a23709")
+		)
+		(pin "1"
+			(uuid "e5034b07-ec99-48ff-bbf8-ec2776a7fc69")
+		)
+		(pin "2"
+			(uuid "e38b5b3b-2dd1-4a80-b573-a34df08ae21f")
+		)
+		(instances
+			(project "requena.abanto_projecte_vidres"
+				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -14751,93 +15015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 195.58 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc8d9ce9-7d06-4904-bb94-e2779336e127")
-		(property "Reference" "Y2"
-			(at 195.58 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8 MHz"
-			(at 195.58 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 195.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 195.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "953f4acd-c35b-4edb-9a76-dba0223e7efd")
-		)
-		(pin "1"
-			(uuid "ec3adbe4-2cbc-4cc4-a6d6-a7084e90dcef")
-		)
-		(instances
-			(project "requena.abanto_projecte_vidres"
-				(path "/4006572a-320d-4ed7-bf52-f860e1c069c6/915ad2af-c6be-4d34-8bde-04620bcb3e26"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-			(project "Etapa_de_processament"
-				(path "/f95ca8d5-0aa1-4bf9-bdf3-1468d6e80aba"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 139.7 40.64 0)
 		(mirror x)
@@ -15113,6 +15290,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 101.6 189.23 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15122,7 +15300,7 @@
 		(dnp no)
 		(uuid "e4237b91-51ed-4c94-9af9-dd79f822bd6e")
 		(property "Reference" "C13"
-			(at 105.41 187.9599 0)
+			(at 97.79 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15133,7 +15311,7 @@
 			)
 		)
 		(property "Value" "22 pF"
-			(at 105.41 190.4999 0)
+			(at 97.79 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15144,7 +15322,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 102.5652 193.04 0)
+			(at 100.6348 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

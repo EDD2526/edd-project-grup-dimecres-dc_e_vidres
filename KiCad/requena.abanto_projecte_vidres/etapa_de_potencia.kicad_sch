@@ -7983,7 +7983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "47uF"
 			(at 130.81 142.6209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "47uF"
 			(at 89.789 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)

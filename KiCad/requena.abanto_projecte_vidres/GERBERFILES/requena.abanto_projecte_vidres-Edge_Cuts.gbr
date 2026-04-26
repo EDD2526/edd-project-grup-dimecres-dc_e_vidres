@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-04-26T21:41:19+02:00*%
+%TF.ProjectId,requena.abanto_projecte_vidres,72657175-656e-4612-9e61-62616e746f5f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-04-26 21:41:19*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X102343500Y-30530000D02*
+X207630000Y-30530000D01*
+X207630000Y-112960000D01*
+X102343500Y-112960000D01*
+X102343500Y-30530000D01*
+M02*
