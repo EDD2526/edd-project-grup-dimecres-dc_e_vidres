@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PROJECTE ALÇAVIDRES")
+		(date "2026-04-29")
 		(company "AUTORS: ÀLEX REQUENA i ALFRED ABANTO")
 	)
 	(lib_symbols)

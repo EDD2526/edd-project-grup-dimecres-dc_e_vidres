@@ -1398,7 +1398,7 @@
 		(at 131.25 90.2575 90)
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW6"
+		(property "Reference" "CLOSE_D"
 			(at 0 -4.3 90)
 			(layer "F.SilkS")
 			(uuid "53380448-ad72-45ab-969a-b4bbe9ca9062")
@@ -1412,6 +1412,7 @@
 		(property "Value" "SW_Omron_B3FS"
 			(at 0 4.2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b13a050e-ed20-4adf-a790-dc6b917f58dd")
 			(effects
 				(font
@@ -8878,6 +8879,7 @@
 		(property "Value" "SW_Push_SPDT"
 			(at 0 4.25 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "49e22798-751d-41f7-a6d0-ffb78334db3d")
 			(effects
 				(font
@@ -9437,7 +9439,7 @@
 		(at 140.55 90.34 90)
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW3"
+		(property "Reference" "UP_W"
 			(at 0 -4.3 90)
 			(layer "F.SilkS")
 			(uuid "2f0eb3d1-9b82-4613-bf82-55e77d045211")
@@ -9451,6 +9453,7 @@
 		(property "Value" "SW_Omron_B3FS"
 			(at 0 4.2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "14aebdc5-1ff3-483d-bd7b-82cd40b1ca4e")
 			(effects
 				(font
@@ -12309,7 +12312,7 @@
 		(at 140.52 105.73 -90)
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW2"
+		(property "Reference" "RESET"
 			(at 0 -4.3 270)
 			(layer "F.SilkS")
 			(uuid "55a0f751-c8a0-4ed3-a59c-2796daf53f02")
@@ -12323,6 +12326,7 @@
 		(property "Value" "SW_Push"
 			(at 0 4.2 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d72cacd7-f88a-404b-b5ef-9be79f2b6bf5")
 			(effects
 				(font
@@ -17773,7 +17777,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 -1.68 90)
+			(at -1.33 1.6275 90)
 			(layer "F.SilkS")
 			(uuid "0bc25c47-a9f1-4561-bcd2-b9eb4a6c5310")
 			(effects
@@ -23640,7 +23644,7 @@
 		(at 131.33 106.01 90)
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW4"
+		(property "Reference" "DOWN_W"
 			(at 0 -4.3 90)
 			(layer "F.SilkS")
 			(uuid "2c29c47a-faa6-4ad0-8c2a-81c4a129ea74")
@@ -27770,8 +27774,8 @@
 		(at 131.28 74.7475 90)
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 3.1mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW5"
-			(at -0.0625 0.02 90)
+		(property "Reference" "OPEN_D"
+			(at 0.0575 4.5 90)
 			(layer "F.SilkS")
 			(uuid "05747f2f-c444-4fd6-9822-4e82fa14f8af")
 			(effects
@@ -27784,6 +27788,7 @@
 		(property "Value" "SW_Omron_B3FS"
 			(at 0 4.2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "36885861-f747-42b3-80f5-01f63a2522ea")
 			(effects
 				(font
@@ -37641,15 +37646,15 @@
 		)
 		(polygon
 			(pts
-				(xy 102.1875 30.42) (xy 195.48095 30.457587) (xy 196.074193 63.790417) (xy 102.289468 63.874983)
+				(xy 102.187687 30.481208) (xy 195.482039 30.518796) (xy 196.074193 63.790417) (xy 102.289468 63.874983)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 195.386441 31.035523) (xy 195.401439 31.039927) (xy 195.416432 31.049559) (xy 195.433513 31.05457)
-				(xy 195.460193 31.077675) (xy 195.461764 31.079487) (xy 195.489 31.133276) (xy 195.490487 31.139829)
-				(xy 195.493541 31.165062) (xy 195.747088 45.411228) (xy 196.071629 63.646495) (xy 196.07163 63.646496)
+				(xy 195.38644 31.035523) (xy 195.401438 31.039927) (xy 195.416431 31.049559) (xy 195.433512 31.05457)
+				(xy 195.460192 31.077675) (xy 195.461763 31.079487) (xy 195.488999 31.133276) (xy 195.490486 31.139829)
+				(xy 195.49354 31.165062) (xy 195.747787 45.4505) (xy 196.071629 63.646495) (xy 196.07163 63.646496)
 				(xy 196.06723 63.681514) (xy 196.063094 63.696588) (xy 196.026373 63.75603) (xy 196.02544 63.756868)
 				(xy 195.970066 63.785531) (xy 195.961593 63.787457) (xy 195.93422 63.790542) (xy 139.518495 63.84141)
 				(xy 139.518495 63.841411) (xy 139.518494 63.84141) (xy 139.518494 63.841411) (xy 139.483555 63.83642)
@@ -38955,7 +38960,7 @@
 				(xy 104.455121 33.324525) (xy 104.423 33.527328) (xy 102.844 33.527328) (xy 102.844 31.172329) (xy 102.849023 31.137393)
 				(xy 102.853427 31.122395) (xy 102.891172 31.063644) (xy 102.8912 31.063619) (xy 102.891199 31.063619)
 				(xy 102.892541 31.062456) (xy 102.94742 31.034977) (xy 102.954979 31.033333) (xy 102.981332 31.0305)
-				(xy 195.351505 31.0305)
+				(xy 195.351504 31.0305)
 			)
 		)
 	)
@@ -39768,7 +39773,7 @@
 		)
 		(polygon
 			(pts
-				(xy 102.74398 30.274867) (xy 207.694197 30.216459) (xy 207.665799 112.966594) (xy 102.715583 113.025002)
+				(xy 102.3542 30.417316) (xy 207.704692 30.582585) (xy 207.575306 113.058876) (xy 102.325819 113.117452)
 			)
 		)
 		(filled_polygon
@@ -43351,7 +43356,7 @@
 		)
 		(polygon
 			(pts
-				(xy 102.45391 30.374867) (xy 207.754145 30.768091) (xy 207.725855 113.148217) (xy 102.42562 112.754993)
+				(xy 102.364113 30.46442) (xy 207.667884 30.535507) (xy 207.612116 113.147792) (xy 102.335854 112.754658)
 			)
 		)
 		(filled_polygon
@@ -46219,7 +46224,7 @@
 		)
 		(polygon
 			(pts
-				(xy 102.471667 30.283618) (xy 207.516552 30.400223) (xy 207.74344 112.996607) (xy 102.698554 112.880002)
+				(xy 102.217009 30.447248) (xy 207.698964 30.572582) (xy 207.601028 112.996449) (xy 102.443447 112.879719)
 			)
 		)
 		(filled_polygon

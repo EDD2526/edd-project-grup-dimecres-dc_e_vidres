@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ETAPA DE PROCESSAMENT")
+		(date "2026-04-29")
 		(company "AUTORS: ÀLEX REQUENA i ALFRED ABANTO")
 	)
 	(lib_symbols
@@ -4837,6 +4838,17 @@
 			)
 		)
 		(uuid "dd0e0828-3466-48d6-9c59-3b48d3653918")
+	)
+	(text "És el cervell lògic del disseny. Està centrat en un microcontrolador (PIC24) encarregat de gestionar la \nlògica del sistema i els seus perifèrics. Inclou les interfícies de comunicació externa (Bus CAN i port\nUSART), la connexió amb un mòdul lector d'RFID, i les entrades per a la botonera de l'usuari i els sensors \nde final de carrera."
+		(exclude_from_sim no)
+		(at 178.308 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5e7fe37-8080-403f-bd98-e407df7e580b")
 	)
 	(junction
 		(at 121.92 129.54)
@@ -9926,25 +9938,25 @@
 		(dnp no)
 		(uuid "07fa0ec0-dc5b-4e36-81f7-86e82bc505b9")
 		(property "Reference" "C26"
-			(at 127.762 170.18 0)
+			(at 136.144 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "150 pF"
-			(at 126.492 168.91 0)
+			(at 138.176 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -10424,10 +10436,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "344a0343-e038-407a-a85a-d270c1a0e7e5")
 		(property "Reference" "R16"
-			(at 148.59 165.1 90)
+			(at 148.59 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10437,7 +10448,7 @@
 			)
 		)
 		(property "Value" "1.5"
-			(at 148.59 167.64 90)
+			(at 148.59 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12233,7 +12244,7 @@
 		(dnp no)
 		(uuid "76a2ad22-a698-4a6d-88e4-8e3e55d770de")
 		(property "Reference" "C20"
-			(at 122.936 163.576 0)
+			(at 121.92 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12244,7 +12255,7 @@
 			)
 		)
 		(property "Value" "150 pF"
-			(at 122.936 165.608 0)
+			(at 121.92 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15631,10 +15642,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2908ac4-3d9d-4317-a1f0-9e65e6eb980d")
 		(property "Reference" "L2"
-			(at 121.92 166.37 90)
+			(at 121.92 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15644,7 +15654,7 @@
 			)
 		)
 		(property "Value" "2.2 uH"
-			(at 121.92 168.91 90)
+			(at 123.444 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
